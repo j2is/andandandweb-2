@@ -1,0 +1,38 @@
+const Theme = {
+	blue100: "#F5FBFC",
+	black: "#1B2E62",
+	cubicBezier: "cubic-bezier(0.645, 0.045, 0.355, 1)",
+	selectionHighlightColor: "hsla(359, 76%, 48%, 0.1)",
+	selectionColor: "white",
+	red: "#CD1C1F",
+	greyOpacity: "#F6F6F6",
+	white: "#fff",
+	whiteOpacity: "rgba(255, 255, 255, 0.95)",
+	videoBackground: "#232323",
+	imageGreyBackground: "hsla(0, 0%, 98%, 1)",
+	grey100: "#f6f6f6",
+	grey200: "hsla(0,0%,85%,1)", // line
+	grey300: "hsla(0,0%,42%,1)",
+	green: "#1CCD23",
+	error: "hsla(0,100%,50%,1)",
+	errorLight: "hsla(10,99%,59%,0.05)",
+	viewport: 1440, // define viewport of development macnine for accurate rem sizes
+	baseline: 10,
+	buttonPadding: "0.6rem 0.8rem",
+	buttonPaddingMobile: "6px 8px",
+	buttonBorderRadius: "1.2rem",
+	buttonBorderRadiusMobile: "12px",
+	sitePaddingTop: '6.7rem',
+	sitePaddingTopDesktop: '67px',
+	sitePaddingTopMobile: '50px',
+	pagePaddingTop: '2.4rem',
+	pagePaddingTopDesktop: '24px',
+	pagePaddingTopMobile: '24px',
+	sitePadding: "4rem",
+	sitePaddingDesktop: "40px",
+	sitePaddingMobile: "15px",
+	paragraphSpace: "1rem",
+	paragraphSpaceDesktop: "10px",
+};
+
+export default Theme;
