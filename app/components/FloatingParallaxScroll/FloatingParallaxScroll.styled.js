@@ -9,7 +9,6 @@ const FloatingParallaxScrollStyles = styled.section`
 	min-height: 400vh; /* Tall enough to allow scrolling through the virtual field */
 	background: ${theme.white};
 	overflow: visible;
-	cursor: none;
 	touch-action: none;
 
 	/* Expanded state for hiding non-expanded images */
