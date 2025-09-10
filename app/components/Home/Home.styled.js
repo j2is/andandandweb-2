@@ -18,6 +18,7 @@ const HomeStyles = styled.section`
 		align-items: center;
 		justify-content: center;
 		z-index: 1;
+		pointer-events: none;
 	}
 `;
 
