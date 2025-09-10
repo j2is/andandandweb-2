@@ -263,11 +263,8 @@ export default function FloatingParallaxScroll() {
 		const deltaY = e.deltaY * 0.15;
 		setScroll({ x: 0, y: deltaY });
 
-		if (deltaY < -3) {
-			setWind(prev => ({ ...prev, y: -0.5 }));
-		} else if (deltaY > 3) {
-			setWind(prev => ({ ...prev, y: 0.5 }));
-		}
+		// Maintain consistent upward wind direction regardless of scroll direction
+		setWind(prev => ({ ...prev, y: -0.3 }));
 	}, [expandedItem]);
 
 	// Touch handlers
